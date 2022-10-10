@@ -1,4 +1,4 @@
-# Internull-inc.github.io
+# Internull Inc
 
 Company name : Internull Inc 
 Product name : Internull 
