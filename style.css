@@ -1,10 +1,17 @@
 body { 
     font-family: "Helvetica";
+    background-color: rgba(247, 145, 90, 0.826);
 }
 h1 {
     text-align: center;
 }
-a {
+
+.topnav {
+    overflow:hidden;
+    float:right;
+
+}
+.topnav a {
     color:darkcyan;
     display: inline-block;
     border: 1px solid black;
@@ -13,7 +20,27 @@ a {
     text-decoration: none;
     border-radius: 6px;
     transition:100ms;
+    text-align: center;
 }
-a:hover{
+.topnav a:hover {
     box-shadow: 3px 3px 3px black;
+}
+.LogoContainer {
+
+}
+.LogoContainer img.Logo {
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.writeup {
+    width:77%;
+}
+.email {
+    width:20px;
+    height:20px;
+    margin-top: -15px;
 }
