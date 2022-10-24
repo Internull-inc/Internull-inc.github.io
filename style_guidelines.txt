@@ -5,6 +5,14 @@ Overall Look and Feel of Roomie
 Colours
 ========
 
+#8ECAE6
+#219EBC
+#023047
+#FFB703
+#FB8500
+
+
+
 Iconography
 ===========
 
