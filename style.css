@@ -2,7 +2,7 @@
 
 body { 
     font-family: "Helvetica";
-    background-color: rgba(247, 145, 90, 0.826);
+    background-color: #FFB703;
     margin:0;
 }
 
@@ -18,10 +18,10 @@ h1 {
     overflow: hidden;
 }
 .topnav a {
-    color:darkcyan;
+    color: black;
     display: inline-block;
     border: 1px solid black;
-    background-color:cornsilk;
+    background-color: #FB8500;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 6px;
@@ -30,18 +30,16 @@ h1 {
     font-size: 20px;
 }
 .topnav a:hover {
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 5px 5px 5px black;
 }
 .LogoContainer img.Logo {
     height: 150px;
     border-radius: 50%;
     display: block;
     position: relative;
-    
 }
 
 /* All rows */
-
 .row:after {
     content: "";
     display: table;
@@ -64,21 +62,31 @@ h1 {
     padding: 15px;
     border-style: solid;
     border-radius: 10px;
+    color: #023047;
 }
 
 /* Pricing Headings*/
 #Free h2 {
+    color: #023047;
     text-align: center;
     font-size: 50px;
 }
 #Premium h2 {
+    color: #023047;
     text-align: center;
     font-size: 50px;
     border-radius: 5px;
 }
 
-#Pricing p {
+.list-pricing {
+    text-align: center;
+    list-style-type: none;
     font-size: 25px;
+    color: #023047;
+    border: 2px solid #023047;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 /* All box sizings */
