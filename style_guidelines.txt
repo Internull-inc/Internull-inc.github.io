@@ -7,6 +7,9 @@ Overall Look and Feel
 Colours
 ========
 
+For Internull, we will be using lively colours, mostly derived from orange and blue. The goal is to make the colours attractive and eye-popping in order to represent the overall feel of the website.
+Here is the color palette we will be using for our website:
+
 - #8ECAE6
 - #219EBC
 - #023047
@@ -25,6 +28,7 @@ Typography
 Links
 =====
 The links will just be important for the digital reference. It helps guide the users. It will help the user navigate through the internet. 
+
 Buttons
 =======
 The buttons will serve the international students well for when they search for the homes, real estate agents, It will serve for the overall navigation/use for these international students. 
