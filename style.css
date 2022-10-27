@@ -104,18 +104,34 @@ body {
     font-size: 40px;
 }
 
-.list-pricing button{
-    border: 2px solid #023047;
+.list-button {
+    text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+    color: #023047;
+    border: none;
+    padding: 10px;
+    margin: 10px;
     border-radius: 10px;
-    font-size: 50px;
-    color:#023047;
-    text-decoration: none;
-    background-color: #FB8500;
-    transition: 200ms;
 }
 
-.list-pricing button:hover{
+.button-pricing {
+    border: 2px solid #023047;
+    border-radius: 7px;
+    font-size: 50px;
+    background-color: #FB8500;
+    transition: 150ms;
+    color: #8ECAE6;
+}
+.button-pricing:hover, .link-pricing:hover {
     background-color: #8ECAE6;
+    font-size: 60px;
+    color: #FB8500;
+}
+
+.link-pricing {
+    color: #8ECAE6;
+    transition: 150ms;
 }
 
 /* All box sizings */
