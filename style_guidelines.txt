@@ -17,8 +17,8 @@ Here is the color palette we will be using for our website:
 Iconography
 ===========
 For the design of our icons we will be considering the form, aesthetic unity and recognition.
-for the geometric aspect will be consdering the angles, the curves, the corners pixel, pixel perfection and line weights.
-we will use details and decorations and make them uniques.
+For the geometric aspect will be consdering the angles, the curves, the corners pixel, pixel perfection and line weights.
+We will use details and decorations and make them uniques.
 
 Typography
 ==========
