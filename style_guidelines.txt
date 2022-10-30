@@ -36,8 +36,6 @@ We will be using Poppins from Google Fonts.
 
 Links
 =====
-The links will just be important for the digital reference. It helps guide the users. It will help the user navigate through the internet. 
-
 We will use links with no underlines. 
 
 Buttons
