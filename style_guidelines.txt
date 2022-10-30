@@ -20,8 +20,9 @@ Here is the color palette we will be using for our website:
 - #FB8500
 
 Iconography
-===========iconography:nition 
-for the design of our icons we will be considering the form, aesthetic unity and recognition.
+===========
+iconography:nition 
+For the design of our icons we will be considering the form, aesthetic unity and recognition.
 for the geometric aspect will be consdering the angles, the curves, the corners pixel, pixel perfection and line weights.
 we will use details and decorations and make them uniques.
 
