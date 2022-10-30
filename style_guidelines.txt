@@ -42,4 +42,4 @@ We will use links with no underlines.
 
 Buttons
 =======
-The buttons will serve the international students well for when they search for the homes, real estate agents, It will serve for the overall navigation/use for these international students. We're planning on mostly using 3D buttons. The colour of the buttons may vary a bit, but they will be using the colours from our palette above.
+We're planning on mostly using 3D buttons. The colour of the buttons may vary a bit, but they will be using the colours from our palette above.
