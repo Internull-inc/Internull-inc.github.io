@@ -37,4 +37,4 @@ The links will just be important for the digital reference. It helps guide the u
 
 Buttons
 =======
-The buttons will serve the international students well for when they search for the homes, real estate agents, It will serve for the overall navigation/use for these international students. 
+The buttons will serve the international students well for when they search for the homes, real estate agents, It will serve for the overall navigation/use for these international students. We're planning on mostly using 3D buttons.
