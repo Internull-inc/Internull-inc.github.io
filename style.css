@@ -1,7 +1,7 @@
 /* Background Color */
 
 body { 
-    font-family: "Helvetica";
+    font-family: "Poppins";
     background-color: #FFB703;
     margin:0;
 }
@@ -49,6 +49,10 @@ body {
 }
 
 /* All rows */
+
+.row {
+    color:#023047;
+}
 .row:after {
     content: "";
     display: table;
@@ -132,6 +136,7 @@ body {
 .link-pricing {
     color: #8ECAE6;
     transition: 150ms;
+    text-decoration: none;
 }
 
 /* All box sizings */
@@ -151,4 +156,23 @@ body {
 }
 .profilepic {
     width: 150px;
+}
+
+/* Services page */
+
+#services p {
+    font-size: 25px;
+}
+
+.services-p1 {
+    padding-right: 40%;
+}
+
+.services-h1-2 {
+    padding-left: 40%;
+}
+
+.services-p2 {
+    padding-left: 40%;
+
 }
