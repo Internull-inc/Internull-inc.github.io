@@ -30,6 +30,9 @@ we will use details and decorations and make them uniques.
 
 Typography
 ==========
+https://fonts.google.com/specimen/Poppins
+https://fonts.google.com/specimen/Roboto+Slab
+https://fonts.google.com/specimen/Rubik
 
 
 Links
