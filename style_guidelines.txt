@@ -1,15 +1,11 @@
 
 Overall Look and Feel
 ========
-
 The overall look and feel should be cutting-edge and professional. The website should be appealing, distinctive and easy to use.
 We will use 3d buttons and immersive looks to draw the visitor's attention and keep them engaged. 
 
- 
-
 Colours
 ========
-
 For Internull, we will be using lively colours, mostly derived from orange and blue. The goal is to make the colours attractive and eye-popping in order to represent the overall feel of the website.
 Here is the color palette we will be using for our website:
 
@@ -21,21 +17,16 @@ Here is the color palette we will be using for our website:
 
 Iconography
 ===========
-iconography:nition 
 For the design of our icons we will be considering the form, aesthetic unity and recognition.
 for the geometric aspect will be consdering the angles, the curves, the corners pixel, pixel perfection and line weights.
 we will use details and decorations and make them uniques.
-
-
 
 Typography
 ==========
 We will be using Poppins from Google Fonts.
 
-
-
 Links
-=====
+=======
 We will use links with no underlines. 
 
 Buttons
