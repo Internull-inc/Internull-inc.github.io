@@ -36,6 +36,8 @@ Links
 =====
 The links will just be important for the digital reference. It helps guide the users. It will help the user navigate through the internet. 
 
+We will use links with no underlines. 
+
 Buttons
 =======
 The buttons will serve the international students well for when they search for the homes, real estate agents, It will serve for the overall navigation/use for these international students. We're planning on mostly using 3D buttons.
