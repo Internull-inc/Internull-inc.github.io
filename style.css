@@ -164,15 +164,21 @@ body {
     font-size: 25px;
 }
 
-.services-p1 {
+.services-p {
+    padding-right: 40%;
+    opacity: 0%;
+}
+
+.services-p:hover, .services-img:hover {
+    transition:500ms;
+    opacity: 100%;
+}
+
+.services-h {
     padding-right: 40%;
 }
 
-.services-h1-2 {
-    padding-left: 40%;
+.services-img {
+    width: 200px;
 }
 
-.services-p2 {
-    padding-left: 40%;
-
-}
