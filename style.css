@@ -145,7 +145,11 @@ body {
 }
 
 /* About Us page */
-
+.font{
+    font-family: "Poppins";
+    
+    
+}
 .writeup {
     width:77%;
 }
