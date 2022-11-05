@@ -148,6 +148,7 @@ body {
 
 .writeup {
     width:77%;
+    color:#023047;
 }
 .email {
     width:20px;
@@ -162,16 +163,11 @@ body {
 
 #services p {
     font-size: 25px;
+    overflow: hidden;
 }
 
 .services-p {
     padding-right: 40%;
-    opacity: 0%;
-}
-
-.services-p:hover, .services-img:hover {
-    transition:500ms;
-    opacity: 100%;
 }
 
 .services-h {
@@ -181,6 +177,7 @@ body {
 .services-img {
     width: 200px;
 }
+
 
 /* contact page */
 .contact {
