@@ -349,13 +349,12 @@ input[type="button"] {
     color: white;
     font-size: 18px;
 }
-p {
+.termsandconditions, .para-2{
     text-align: center;
     padding-top: 20px;
     font-size: 15px;
 }
 .para-2 {
-    text-align: center;
     color: white;
     font-size: 15px;
     margin-top: -10px;
