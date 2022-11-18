@@ -19,7 +19,7 @@
     width: 100%;
     display: flex;
     background: #FFB703;
-    box-shadow: 0 5px 10px #1b1b19;
+    box-shadow: 0 3px 10px #1b1b19;
     padding: 3em;
     margin-top: 100px;
     position: static;
@@ -51,11 +51,11 @@ img.Logo{
 }
 
 .undernav h2 {
-    text-align: center;
+    text-align: left;
     width: 100%;
     word-wrap: break-word;
-    
-    padding-left: 100px;
+    line-height: 1.5;
+    padding-left: 70px;
     padding-right: 100px;
     
     
@@ -101,13 +101,13 @@ img.Logo{
 #Free h2 {
     color: #023047;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 #Premium h2 {
     
     color: #023047;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     border-radius: 5px;
     text-decoration: underline;
 }
@@ -184,15 +184,33 @@ img.Logo{
 
 /* Services page */
 
-#services p {
+#services-p {
     font-size: 25px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
     overflow: hidden;
 }
 .services-img {
     width: 200px;
 }
 
-
+#services-h2{
+  padding-top: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-size:30px;
+}
+.globe{
+  height: 250px;
+  width: 290px;
+  margin-left:5%;
+}
+.flex{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 /* contact page */
 .contact {
     color: #023047;
@@ -200,6 +218,7 @@ img.Logo{
 }
 .h1{
     font-size: 25px; 
+    
 }
 .firstrect{
     text-align: center;
@@ -348,6 +367,7 @@ form .submit:hover{
 h1 {
     text-align: center;
     padding-top: 15px;
+    cursor:context-menu;
 }
 
 h4 {
@@ -376,8 +396,8 @@ form input {
 
 .form-control{
 
-  width: 270px;
-  margin-left: 5px;
+  width: 90%;
+  margin-left: 13px;
 }
 
 .form-control  {
@@ -394,18 +414,22 @@ form input {
   border-radius: 6px;
   outline: none;
 }
-.form-controlsubmit{
-  width: 50%;
+input[type="submit"]{
+  width: 40%;
+  height: 35px;
+  margin-top: 20px;
+  margin-right:200px;
+  margin-left:20px ;
   
-  margin-right: 50%;
-  
+  border: none;
+  background-color: #219EBC;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
 }
-.form-controlsubmit:hover {
-  width:60%;
-  margin-right: 0;
-  margin-left: -50%;
+
   
-}
+
 input[type="button"] {
     width: 320px;
     height: 35px;
@@ -545,8 +569,7 @@ input[type="button"] {
   
   .option_item .writeup {
     visibility: hidden;
-    background-color: #48233C;
-    opacity: 0.5;
+    background-color: hsl(319, 35%, 21%, 0.5);
     position: absolute;
     display:block;
     object-fit: cover;
@@ -556,8 +579,8 @@ input[type="button"] {
     width: 100%;
     max-width: 120%;
     max-height: 120%;
-    color:#ffff;
-    
+    color:rgb(255, 255, 255);
+    line-height: 200%;
     border-radius: 2px;
     border-color: #fff;
     border-style: solid;
@@ -568,8 +591,9 @@ input[type="button"] {
     padding-left: 20px;
     padding-right: 20px;
     
-    text-align:justify;
+   
   }
+
 
 
   .option_item .email{
@@ -659,24 +683,66 @@ input[type="button"] {
   }
   */
   
+ 
+  .footer {
+    
+    background: #FFB703;
+    
+    color: rgb(255, 255, 255);
+    padding: 0.5em;
+    height:100%;
+    width: 100%;
+    box-shadow: 0 -3px 10px #1b1b19;
+    position: static;
+    display: block;
+  }
+ 
   .imageicon{
     height:30px;
     width:30px;
-    transition: transform .2s; /* Animation */
+   
   }
   .imageicon:hover {
+    transition: transform .2s; 
     transform: scale(1.5); 
   }
   .animation:hover{
     transition: transform .2s;
     transform: scale(1.3); 
   }
-  footer {
-    background: #FFB703;
-    color: rgb(10, 9, 9);
-    padding: 3em;
-    margin-top: auto;
+ 
+  .imageicon2{
+    height:20px;
+    width:20px;
+    margin-right:10px;
+      
+   }
+   #footerdiv{
+    display: flex;
+    padding:8px;
+   }
+   #design{
+    
     text-align: right;
-    box-shadow: 0 -5px 10px #1b1b19;
-    position: static;
+    padding-right: 30px;
+   }
+ 
+   
+  .socialmedia{
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 25px;
+    
+   }
+   .imageicon3:hover  {
+     cursor: pointer;
+    transform: scale(1.5); 
   }
+  .imageicon3{
+      height:30px;
+      width:30px;
+      margin-right: 10px;
+      padding-bottom: 7px;
+      margin-bottom: 10px;
+    
+ }
