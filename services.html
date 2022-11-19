@@ -5,58 +5,106 @@
   <link rel="stylesheet" type = "text/css" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   <title>Services</title>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+  <script src="Internull.js"></script>
 </head>
 <body>
-<div class="header">
-  <div class="LogoContainer">
-  <img class="Logo" src="Images/logo.png" alt="Internull Logo">
+  <div class="topnav">
+    <div class="LogoContainer">
+
+        <img src="Images/logo.png" class="Logo" alt="Internull Logo">
+    </div>
+        <a href="index.html"><img src="Images/homee.png" class="imageicon"></a>
+        <a href="aboutus.html"><img src="Images/about us.png" class="imageicon"></a>
+        <a href="services.html"><img src="Images/services.png" class="imageicon"></a>
+        <a href="pricing.html"><img src="Images/pricing.png" class="imageicon"></a>
+        <a href="contact.html"><img src="Images/contact.png" class="imageicon"></a>
   </div>
-<div class="topnav">
-  <a href="index.html">HOME</a>
-  <a href="aboutus.html">ABOUT</a>
-  <a href="services.html">SERVICES</a>
-  <a href="pricing.html">PRICING</a>
-  <a href="contact.html">CONTACT</a>
-</div>
 
 <div class="undernav">
-  <h1>
+  <h1 class="animation">
+    <br>
     SERVICES
+    <br><br>
   </h1>
-  <h2>
-    Going International for your studies but don't have a place to live during your studies? Internull is the perfect service for you! <br>
-    Here, you will find everything you need to find a residence. <br> 
-    Internull offers a wide selection of residences. <br> 
-    From houses to dorms to apartments, we have it all! <br>
-    Here's a list of everything we offer to improve your exprerience.
-  </h2>
+  <div class="flex">
+    <img src="Images/globe.jpg" class="globe">
+    <h2>
+    
+      Going International for your studies but don't have a place to live ? Internull is the perfect service for you! 
+       <br>
+      Here, you will find everything you need. 
+      <br> 
+      Internull offers a wide selection of residences: <br> 
+      From houses to dorms to apartments, we have it all!
+       <br>
+      Here's a list of everything we offer to improve your exprerience. <br>
+      Click on a service for more information.
+    </h2>
+  </div>
 </div>
 
 <div class="row" id="services">
-  <h1 class="services-h1">
-    Easy to use
-  </h1>
-  <p class="services-p">
-    We understand that preparing for postsecondary studies, especially when moving in a completely new area, can be a difficult and stressful time. 
-    That's why we decided to make Internull user-friendly in order to improve your experience!
-   <br> <img class="services-img" src="Images/easytouse.png" alt="Easy to use">
-  </p>
-  
-  <h1 class="services-h">
-    Free to use
-  </h1>
-  <p class="services-p">
+  <div class="services-h" id="show1">
+    <h2 id="services-h2">Easy to use</h2>
+  </div>
+    <div id="des1">
+      <div id="services-p">
+        We understand that preparing for postsecondary studies, especially when moving in a completely new area, can be a difficult and stressful time. 
+        That's why we decided to make Internull user-friendly in order to improve your experience!
+      <br> <img class="services-img" src="Images/easytouse.png" alt="Easy to use">
+      </div>
+  </div>
+
+  <div class="services-h" id="show2">
+    <h2 id="services-h2">Free to use</h2>
+  </div>
+  <div id="des2">
+    <div id="services-p">
     Postsecondary tuition is expensive, and even more so for those looking to travel abroad. That is why we decided that our service should be free to use. If you're not satisfied with the free version of Internull, we always have an option to upgrade to premium. 
    <br> <img class="services-img" src="Images/free.png" alt="Free to use">
-  </p>
-
-  <h1 class="services-h">
-    Personalized choice of recommended properties
-  </h1>
-  <p class="services-p">
-    Once you sign up for an Internull account, you will be given an optional questionnaire. After a user has completed the questionnaire, our algorithms will filter out properties in order to recommend the user properties that would best suit them. We do this in order to make it easier for each user to find properties that fit their needs.
-  </p>
+    </div>
 </div>
 
+  <div class="services-h" id="show3">
+    <h2 id="services-h2">Personalized choice of recommended properties</h2>
+  </div>
+  <div id="des3">
+  <div id="services-p">
+    Once you sign up for an Internull account, you will be given an optional questionnaire. After a user has completed the questionnaire, our algorithms will filter out properties in order to recommend the user properties that would best suit them. We do this in order to make it easier for each user to find properties that fit their needs.
+  </div>
+</div>
+<br><br><br>
+<div class="footer">
+  <div id="position">
+  <div id="footerdiv">
+   <img src="Images/phone.png" class="imageicon2">
+   <p class="footer-p">613-468-7464</p>
+  </div>
+  <div id="footerdiv">
+   <img src="Images/mail.png" class="imageicon2">
+   <p class="footer-p">ContactUs@Internull.ca</p>
+  </div>
+  <div id="footerdiv">
+   <img src="Images/location.png" class="imageicon2">
+   <p class="footer-p">75 Laurier Ave. E, Ottawa, ON K1N 6N5</p>
+  </div>
+  
+  <div class="socialmedia">
+    <img src="Images/instagram.png" class="imageicon3">
+    <img src="Images/linkedin.png" class="imageicon3">
+    <img src="Images/facebook.png" class="imageicon3">
+    <img src="Images/twitter.png" class="imageicon3">
+  </div>
+
+ <div id="design">
+   <p>
+    Designed by
+   <b>Internull</b>
+  </p>
+  </div>
+  </div>
+ </div>
+ 
 </body>
 </html>
