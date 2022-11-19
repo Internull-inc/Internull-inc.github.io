@@ -51,7 +51,6 @@ img.Logo{
 }
 
 .undernav h2 {
-    text-align: left;
     width: 100%;
     word-wrap: break-word;
     line-height: 1.5;
@@ -83,11 +82,11 @@ img.Logo{
 }
 
 /* Pricing columns */
-.row #Free, #Premium {
-    position: static;
-    float:left;
+
+#Free, #Premium {
+    float: left;
     margin-left:50px;
-    margin-right:70px;
+    margin-right:125px;
     width:40%;
     padding: 10px;
     border-style: solid;
@@ -97,6 +96,10 @@ img.Logo{
 }
 
 /* Pricing */
+
+.pricing-desc {
+  text-align: center;
+}
 
 #Free h2 {
     color: #023047;
@@ -158,6 +161,10 @@ img.Logo{
     color: #8ECAE6;
     transition: 150ms;
     text-decoration: none;
+}
+
+#pricingh2 {
+  text-align: center;
 }
 
 /* All box sizings */
@@ -230,6 +237,7 @@ img.Logo{
     margin: 10px;
     border-radius: 10px;
     width: 80%;
+    
 }
 .secondrect{
     text-align: center;
@@ -279,6 +287,9 @@ img.Logo{
 
 }
 
+#sendmessage {
+  
+}
 /* Gamelle Contact Page
 
 body{
@@ -392,6 +403,8 @@ form input {
     border: 1px solid gray;
     border-radius: 6px;
     outline: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-control{
@@ -419,7 +432,7 @@ input[type="submit"]{
   height: 35px;
   margin-top: 20px;
   margin-right:200px;
-  margin-left:20px ;
+  margin-left:60px;
   
   border: none;
   background-color: #219EBC;
