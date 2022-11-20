@@ -56,6 +56,7 @@ img.Logo{
     line-height: 1.5;
     padding-left: 70px;
     padding-right: 100px;
+  
     
     
 
@@ -80,7 +81,185 @@ img.Logo{
     border-style: solid;
     border-radius: 10px;
 }
+.imageapartment{
+  
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  height: 350px;
+  width:350px;
+  border-radius:20px;
+  filter: drop-shadow(2px 2px 10px black);
+  cursor:pointer;
+  z-index: 1;
 
+
+}
+
+.imageapartment:hover{
+
+  transform: scale(1.1);
+  transition: all .3s ease-in-out; 
+  text-align: center;
+}
+   
+
+
+.contain{
+  position: relative;
+}
+.text{
+  
+  position: absolute;
+  color:white;
+  word-wrap: break-word;
+  
+  height: 10%;
+  width: 70%;
+  top: 50px;
+  left: 50%;
+  
+  font-size: 25px;
+  text-shadow: 0 0px 10px rgb(0 0 0);
+  line-height: 1.12;
+  font-family: "Secular One";
+  letter-spacing: -0.1px;
+  transform: translate(-50%, -50%);
+
+  display:block;
+    object-fit: cover;
+    max-width: 120%;
+    max-height: 120%;
+   
+   
+   
+    
+}
+/*.text:hover{
+  visibility: visible;
+  position: absolute;
+  color:white;
+  z-index: 2;
+  top: 30px;
+  left:160px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-shadow: 0 0px 10px rgb(0 0 0);
+  line-height: 1.12;
+  font-family: "Secular One";
+  letter-spacing: -0.1px;
+}
+*/
+.apartments{
+  margin-left: 40px;
+  
+  max-width: 100%;
+ 
+}
+.apartments123{
+  display: flex;
+  margin-left: 40px;
+}
+.container{
+  position: relative;
+    text-align: center;
+  }
+  .imageresidence{
+    height: 650px;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 40px;
+    border-radius:11px;
+    
+    filter: drop-shadow(2px 2px 10px black)
+  }
+  .firsttext {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-shadow: 0 0px 10px rgb(0 0 0);
+    line-height: 1.12;
+    color: rgb(225, 255, 255);
+    font-family: "Secular One";
+    letter-spacing: -0.1px;
+   
+  } 
+  .containingimages{
+    margin-left: 20%;
+    
+    display: flex;
+  }
+  .neighborandtext{
+    display: block;
+    margin-left:10% ;
+    width: 200px;
+  }
+  #home{
+    height: 150px;
+    width:100%;
+    padding: 10px;
+  }
+ 
+  .homeandtext{
+    display: block;
+    margin-left:10% ;
+    width: 170px;
+  }
+  #texthometitle{
+    word-spacing: -2px;
+    text-align: justify;
+    
+    padding-top: 20px;
+    cursor: context-menu;
+    padding-left:13%;
+    font-size:23px;
+  }
+  #texthome{
+    text-align: center;
+    cursor: context-menu;
+    padding-top: 20px;
+    
+    font-size:17px;
+   
+  }
+  #textneighbor{
+    padding-top: 10px;
+    text-align: center;
+    cursor: context-menu;
+    
+   
+    font-size:17px;
+  
+  }
+  #textneighbortitle{
+    word-spacing: -2px;
+    text-align: center;
+    
+    padding-bottom: 10px;
+    cursor: context-menu;
+    padding-left:5%;
+    font-size:23px;
+  }
+
+  .buttonhome {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border-width:2px ;
+    border-color: #219EBC;
+    background-color: #219EBC;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.buttonhome:hover {
+    background-color: white;
+    
+    color: #219EBC;
+}
+  
 /* Pricing columns */
 
 #Free, #Premium {
@@ -90,11 +269,11 @@ img.Logo{
     width:40%;
     padding: 10px;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 8px;
     color: #023047;
     
 }
-
+  
 /* Pricing */
 
 .pricing-desc {
@@ -202,7 +381,7 @@ img.Logo{
     width: 200px;
 }
 
-#services-h2{
+ #services-h2{
   padding-top: 20px;
   cursor: pointer;
   text-align: center;
