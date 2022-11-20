@@ -7,7 +7,11 @@
     padding: 0;
     font-family: "Poppins";
     background-color: #FFB703;
-}
+    background: #fbfbff;
+    display: block;
+    min-height: 100vh;
+    justify-content: center;
+  }
 
 /* Navigation Pages */
 
@@ -666,14 +670,6 @@ input[type="button"] {
   
   html{
     height: 100%;
-  }
-  
-  body{
-    background: #fbfbff;
-    display: block;
-    min-height: 100vh;
-    justify-content: center;
-    font-family: 'arial';
   }
   
   /*about us page*/
