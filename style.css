@@ -77,15 +77,9 @@ img.Logo{
     display: table;
     clear: both;
 }
-/* Home Page columns */
-.row #OurServices, #Testimonials, #AgentContacts {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-    text-align: center;
-    border-style: solid;
-    border-radius: 10px;
-}
+
+/* Home images */
+
 .imageapartment{
   
   padding: 10px;
@@ -97,8 +91,6 @@ img.Logo{
   filter: drop-shadow(2px 2px 10px black);
   cursor:pointer;
   z-index: 1;
-
-
 }
 
 .imageapartment:hover{
@@ -107,75 +99,50 @@ img.Logo{
   transition: all .3s ease-in-out; 
   text-align: center;
 }
-   
-
 
 .contain{
   position: relative;
+  margin: 0% 7% 0% 7%;
 }
 .text{
   
   position: absolute;
   color:white;
   word-wrap: break-word;
-  
   height: 10%;
   width: 70%;
   top: 50px;
   left: 50%;
-  
   font-size: 25px;
   text-shadow: 0 0px 10px rgb(0 0 0);
   line-height: 1.12;
   font-family: "Secular One";
   letter-spacing: -0.1px;
   transform: translate(-50%, -50%);
-
   display:block;
-    object-fit: cover;
-    max-width: 120%;
-    max-height: 120%;
-   
-   
-   
+  object-fit: cover;
+  max-width: 120%;
+  max-height: 120%;
     
 }
-/*.text:hover{
-  visibility: visible;
-  position: absolute;
-  color:white;
-  z-index: 2;
-  top: 30px;
-  left:160px;
-  transform: translate(-50%, -50%);
-  font-size: 25px;
-  text-shadow: 0 0px 10px rgb(0 0 0);
-  line-height: 1.12;
-  font-family: "Secular One";
-  letter-spacing: -0.1px;
-}
-*/
+
 .apartments{
-  margin-left: 40px;
-  
   max-width: 100%;
- 
 }
 .apartments123{
   display: flex;
-  margin-left: 40px;
+
 }
 .container{
   position: relative;
-    text-align: center;
-  }
-  .imageresidence{
+  text-align: center;
+}
+.imageresidence {
     height: 650px;
     width: 100%;
     max-width: 100%;
     padding: 20px 40px;
-    border-radius:11px;
-    
+    border-radius:10px;
     filter: drop-shadow(2px 2px 10px black)
   }
   .firsttext {
@@ -193,29 +160,28 @@ img.Logo{
   } 
   .containingimages{
     margin-left: 20%;
-    
     display: flex;
   }
   .neighborandtext{
     display: block;
-    margin-left:10% ;
+    margin-left: 60%;
     width: 200px;
   }
-  #home{
+  #home {
     height: 150px;
     width:100%;
     padding: 10px;
   }
  
-  .homeandtext{
+  .homeandtext {
     display: block;
-    margin-left:10% ;
+    margin-left: 10%;
     width: 170px;
   }
+
   #texthometitle{
     word-spacing: -2px;
     text-align: justify;
-    
     padding-top: 20px;
     cursor: context-menu;
     padding-left:13%;
@@ -225,7 +191,6 @@ img.Logo{
     text-align: center;
     cursor: context-menu;
     padding-top: 20px;
-    
     font-size:17px;
    
   }
@@ -233,15 +198,12 @@ img.Logo{
     padding-top: 10px;
     text-align: center;
     cursor: context-menu;
-    
-   
     font-size:17px;
   
   }
   #textneighbortitle{
     word-spacing: -2px;
     text-align: center;
-    
     padding-bottom: 10px;
     cursor: context-menu;
     padding-left:5%;
@@ -261,7 +223,6 @@ img.Logo{
 }
 .buttonhome:hover {
     background-color: white;
-    
     color: #219EBC;
 }
   
