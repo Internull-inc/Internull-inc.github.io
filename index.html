@@ -4,10 +4,11 @@
     <head>
         <link rel="stylesheet" type = "text/css" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <script scr="script.js" defer></script>
         <title>Home</title>
     </head>
 <body>
-    
+  <div id="contentwrap">
     <div class="topnav">
         <div class="LogoContainer">
             <img class="Logo" src="Images/logo.png" alt="Internull Logo">
@@ -30,6 +31,19 @@
       
        <img src="Images/residence.jpg " class="imageresidence">
        <div class="firsttext"><b>With Internull, home is everywhere you go </b></div>
+      <div class="search-wrapper">
+        <label for="search"><b>Search Users</b></label>
+        <input type="search" id="search" data-search>
+      </div>
+      <div class="user-cards" data-user-cards-container></div>
+        <template data-user-template>
+          <div class="card">
+            <div class="header" data-header></div>
+            <div class="bodyy" data-body></div>
+          </div> 
+        </template>         
+      </div>
+
 
     </div>
     
@@ -40,7 +54,7 @@
       <div id="services-p">Internull is an app designed for International Students. With Internull, you will no longer have to worry about finding a place to live during your studies. We offer places to live near campus depending on your needs. Internull is safe, personalized and easy to use.</div></p>
       <br><br>
   <div class="apartments">
-    <div class="apartments123">
+    
     <div class="contain">
       <img src="Images/apartment1.jpg" class="imageapartment">
       <div class="text">Ottawa, Canada</div>
@@ -53,8 +67,6 @@
     <img src="Images/apartment8.jpg" class="imageapartment">
     <div class="text">Paris, France</div>
     </div>
-   </div>
-   <div class="apartments123">
     <div class="contain">
     <img src="Images/apartment4.jpg" class="imageapartment">
     <div class="text">Amsterdam, Netherlands</div>
@@ -62,10 +74,9 @@
    <div class="contain">
     <img src="Images/apartment5.jpg" class="imageapartment">
     <div class="text">Barcelona, Spain</div>
-    <br><br>
    </div>
    </div>
-    <div id="services-h2">
+    <div id="text1">
       <b>See how Internull can help</b>
     </div>
     <br>
@@ -76,7 +87,7 @@
      
       <button class="buttonhome" ><a> Find a home</a></button>
     </div>
-    <div class="containingimages">
+    
       <div class="neighborandtext">
       <img src="Images/neighbor.png" id="home">
       <div id="textneighbortitle"><b> Discover your neighborhood</b></div><div id="textneighbor">Here, at Internull, you can discover the colors of your new neighborhood more than any other website </div>
@@ -85,7 +96,7 @@
     </div>
     </div>
     </div>
-  </div>
+  
   </div>
 </div>
  
@@ -94,30 +105,30 @@
   </div>
 </div>
 <br><br>
+</div>
 <div class="footer">
+  <div class="breakline">
+  <div id="footerdiv">
+   <img src="Images/phone.png" class="imageicon2">
+   <p>613-468-7464</p>
+ </div>
  <div id="footerdiv">
-  <img src="Images/phone.png" class="imageicon2">
-  <p>613-468-7464</p>
+   <img src="Images/mail.png" class="imageicon2">
+   <p>ContactUs@Internull.ca</p>
+ </div>
+ <div id="footerdiv">
+   <img src="Images/location.png" class="imageicon2">
+   <p>75 Laurier Ave. E, Ottawa, ON K1N 6N5</p>
+ </div>
 </div>
-<div id="footerdiv">
-  <img src="Images/mail.png" class="imageicon2">
-  <p>ContactUs@Internull.ca</p>
-</div>
-<div id="footerdiv">
-  <img src="Images/location.png" class="imageicon2">
-  <p>75 Laurier Ave. E, Ottawa, ON K1N 6N5</p>
-</div>
-<div class="socialmedia">
-  <img src="Images/instagram.png" class="imageicon3">
-  <img src="Images/linkedin.png" class="imageicon3">
-  <img src="Images/facebook.png" class="imageicon3">
-  <img src="Images/twitter.png" class="imageicon3">
-</div>
-<div id="design">
-  Designed by
-  <b>Internull</b>
-</div>
-
+ <div class="socialmedia">
+   <img src="Images/instagram.png" class="imageicon3">
+   <img src="Images/linkedin.png" class="imageicon3">
+   <img src="Images/facebook.png" class="imageicon3">
+   <img src="Images/twitter.png" class="imageicon3">
+ </div>
+ 
+ </div>
 </div>
 </body>
 </html>
